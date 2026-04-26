@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+backend/venv/
+
+# Local environment/secrets
+.env
+.env.*
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env.local
+frontend/.env*.local
+
+# Local databases and generated state
+*.db
+*.sqlite
+*.sqlite3
+backend/ads_intelligence.db
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

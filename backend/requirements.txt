@@ -1,0 +1,13 @@
+# Dependencies
+fastapi==0.136.0
+uvicorn[standard]==0.46.0
+SQLAlchemy==2.0.49
+pydantic-settings==2.14.0
+groq
+apify-client
+firecrawl-py
+python-dotenv
+httpx
+python-dotenv
+httpx
+python-dotenv
