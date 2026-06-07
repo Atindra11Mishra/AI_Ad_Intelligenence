@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <div className="flex items-center gap-8">
           <Link href="/" className="text-xl font-bold tracking-tight">
-            Brandora
+            AI Ad Analyzer
           </Link>
 
           <nav className="flex items-center gap-5 text-sm">

@@ -1,6 +1,6 @@
-# Brandora Competitive Ad Intelligence
+# AI Ad Analyzer
 
-Lightweight app for the Brandora competitor ads challenge. It creates a brand profile from a real website, fetches competitor ads from Meta Ad Library through Apify, analyzes copy and images with Groq models, persists structured intelligence in SQLite, and uses that data to power a grounded creative strategy chat.
+Lightweight app for competitor ad intelligence. It creates a brand profile from a real website, fetches competitor ads from Meta Ad Library through Apify, analyzes copy and images with Groq models, persists structured intelligence in SQLite, and uses that data to power a grounded creative strategy chat.
 
 ## Stack
 
