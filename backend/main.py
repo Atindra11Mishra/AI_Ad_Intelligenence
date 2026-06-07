@@ -14,26 +14,10 @@ app = FastAPI(
     version="1.0.0",
 )
 
-DEFAULT_CORS_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://ai-ad-intelligenence.vercel.app",
-]
-
-
-def get_cors_origins() -> list[str]:
-    raw_origins = os.getenv("CORS_ORIGINS")
-    if not raw_origins:
-        return DEFAULT_CORS_ORIGINS
-
-    origins = [origin.strip() for origin in raw_origins.split(",") if origin.strip()]
-    return origins or DEFAULT_CORS_ORIGINS
-
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=get_cors_origins(),
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
